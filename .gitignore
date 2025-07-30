@@ -45,7 +45,7 @@ Thumbs.db               # Windows
 # Generally, you want to keep your .zim files, so we don't ignore the directory.
 # If you have specific temporary files generated inside zim-content, add them here.
 # For example:
-# /zim-content/*.tmp
+/zim-content/
 
 # Web content (if you ever generate temporary files within it)
 # Generally, you want to keep your web content.
