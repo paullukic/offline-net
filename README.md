@@ -20,9 +20,8 @@ It gives you a clean dashboard to browse all your offline content — perfect fo
 
 ## 📸 Screenshot
 
-![Offline-Net Dashboard](docs/screenshot.png)  
-*Example: Listing ZIM libraries and custom offline websites.*
-
+Offline-Net Dashboard
+<img width="1049" height="1121" alt="image" src="https://github.com/user-attachments/assets/727cb4c9-9ca4-4f2b-b230-cd5a4d2aa4be" />
 ---
 
 ## 📂 Project Structure
