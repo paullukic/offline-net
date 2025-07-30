@@ -11,7 +11,7 @@ It gives you a clean dashboard to browse all your offline content — perfect fo
 
 - 📦 **Serve ZIM files instantly** — Powered by [Bornholm/go-zim](https://pkg.go.dev/github.com/Bornholm/go-zim) for lightning-fast reading.
 - 🌐 **Custom offline websites** — Drop static HTML into a folder and serve it instantly.
-- 🖥 **Beautiful dashboard** — All content neatly listed at http://localhost:8000/.
+- 🖥 **Simple dashboard** — All content neatly listed at http://localhost:8000/.
 - 🔌 **Cross-platform builds** — Windows, Linux, macOS, Raspberry Pi.
 - 🚀 **Zero external dependencies at runtime** — Just drop files in and run.
 - 📡 **Portable knowledge** — Use it in classrooms, remote villages, on boats, or during travel.
