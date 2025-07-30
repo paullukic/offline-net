@@ -1,0 +1,63 @@
+# Compiled Go executables
+# Matches executables built in the root directory (if BUILD_DIR=".")
+offline-net
+offline-net.exe
+offline-net-linux
+offline-net-macos
+offline-net-raspberry
+
+# Matches executables built into a 'build' directory (if BUILD_DIR="build")
+/build/
+
+# Standard Go build outputs
+*.exe
+*.test
+*.out
+*.prof
+
+# Go module cache and dependency files
+/pkg/
+/bin/
+/src/
+.cache/go-build/
+
+# IDE and Editor specific files
+.idea/                  # IntelliJ IDEA
+.vscode/                # VS Code
+*.sublime-project       # Sublime Text
+*.sublime-workspace     # Sublime Text
+.DS_Store               # macOS
+Thumbs.db               # Windows
+
+# Log files
+*.log
+
+# Temporary files or backups
+*~
+*.bak
+*.tmp
+
+# Environment variables file
+.env
+.env.*
+
+# ZIM content (if you ever generate temporary files within it)
+# Generally, you want to keep your .zim files, so we don't ignore the directory.
+# If you have specific temporary files generated inside zim-content, add them here.
+# For example:
+# /zim-content/*.tmp
+
+# Web content (if you ever generate temporary files within it)
+# Generally, you want to keep your web content.
+# If you have specific temporary files generated inside web-content, add them here.
+# For example:
+# /web-content/**/*.bak
+
+# LLM models (assuming these are large and might not be committed to Git)
+# If you want to ignore the *contents* of llm-models but keep the directory, use:
+/llm-models/*
+!/llm-models/.gitkeep # Optional: keep the directory empty but tracked
+# If you want to track the models, remove the above two lines.
+
+# Generated resource files (e.g., for Windows icons)
+*.syso
