@@ -61,6 +61,7 @@ func registerZimHandlers() {
 		urlPath := fmt.Sprintf("%s%s/", zimContentBasePath, zimName)
 		zimFs := fs.New(reader)
 		rawFileServer := http.FileServer(http.FS(zimFs))
+
 		handler := &zim.ZimFileHandler{
 			ZimName:    zimName,
 			BaseZimURL: urlPath,
